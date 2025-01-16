@@ -6,3 +6,47 @@
   font-weight: 700;
   font-style: normal;
 }
+
+/* Shared Style */
+
+/* dark-02 */
+.text-gray{
+    color : #424242;
+}
+
+/* dark-02 */
+.text-gray-light{
+    color : #727272
+}
+
+/* header style */
+
+.header{
+    background-color: #ff8f0e32;
+}
+
+/* navbar style */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    gap: 3vw;
+}
+
+.navbar > ul > li{
+    list-style: none;
+}
+
+.navbar > ul > li > a{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
